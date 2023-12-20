@@ -2,7 +2,7 @@ import React from 'react'
 
 const Image = ({imgsrc}) => {
   return (
-    <img className='w-full' src={imgsrc} alt='imag'/>
+    <img  src={imgsrc} alt='imag'/>
   )
 }
 

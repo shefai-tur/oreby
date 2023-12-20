@@ -1,8 +1,9 @@
 import React from "react";
 import Container from "../../Components/layout/Container";
 import Flex from "../../Components/layout/Flex";
-import Bradcamp from "../../Components/Bradcamp";
+
 import Paginate from "../../Components/layout/Paginate";
+import Bradcamp from "../../Components/layout/Bradcamp";
 
 const Shop = () => {
   return (
