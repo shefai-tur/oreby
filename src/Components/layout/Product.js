@@ -8,6 +8,7 @@ import Flex from "./Flex";
 const Product = ({ src, badge }) => {
   return (
    <div>
+  
      <div className=" relative overflow-hidden group">
       <Image imgsrc={src} />
       {badge && <Badge titel="New" />}
