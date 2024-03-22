@@ -39,21 +39,22 @@ const Navber = () => {
                   className="hover:font-regular mt-2.5 font-dm text-sm font-bold text-[#767676] lg:mt-0"
                   itemname="Home"
                 />
-              
+
                 <ListItem
                   className="font-regular mt-2.5 font-dm text-sm text-[#767676] hover:font-bold lg:mt-0"
                   itemname="Shop"
                   href="/product"
                 />
-           
-               
+
                 <ListItem
                   className="font-regular mt-2.5 font-dm text-sm text-[#767676] hover:font-bold lg:mt-0"
                   itemname="about"
+                  href="/about"
                 />
                 <ListItem
                   className="font-regular mt-2.5 font-dm text-sm text-[#767676] hover:font-bold lg:mt-0"
                   itemname="Contacts"
+                  href="/contacts"
                 />
                 <ListItem
                   className="font-regular  mt-2.5 font-dm text-sm  text-[#767676] hover:font-bold lg:mt-0"

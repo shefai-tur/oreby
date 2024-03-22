@@ -7,10 +7,10 @@ import Image from "./Image";
 
 const Footer = () => {
   return (
-    <div className="mt-36 bg-[#F5F5F3] py-14">
+    <div className=" mt-16 md:mt-36 bg-[#F5F5F3] py-14">
       <Container>
         <Flex className="flex flex-wrap justify-between gap-x-2 lg:gap-x-0 gap-y-5 md:gap-y-0">
-          <div className="md:w-[10%]">
+          <div className="md:w-[5%]">
             <h4 className="mb-4 font-dm text-base font-bold">MENU</h4>
             <List>
               <ListItem
@@ -45,29 +45,25 @@ const Footer = () => {
             <List>
               <ListItem
                 className="font-regular mt-[6px] font-dm text-sm text-[#6D6D6D]"
-                itemname="Category 1"
+                itemname="Shop by Category"
                 href="#"
               />
               <ListItem
                 className="font-regular mt-[6px] font-dm text-sm text-[#6D6D6D]"
-                itemname="Category 2"
+                itemname="Shop by Color"
                 href="#"
               />
               <ListItem
                 className="font-regular mt-[6px] font-dm text-sm text-[#6D6D6D]"
-                itemname="Category 3"
+                itemname="Shop by Brand"
                 href="#"
               />
               <ListItem
                 className="font-regular mt-[6px] font-dm text-sm text-[#6D6D6D]"
-                itemname="Category 4"
+                itemname="Shop by Price"
                 href="#"
               />
-              <ListItem
-                className="font-regular mt-[6px] font-dm text-sm text-[#6D6D6D]"
-                itemname="Category 5"
-                href="#"
-              />
+            
             </List>
           </div>
           <div className="md:w-[10%]">

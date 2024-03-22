@@ -41,11 +41,14 @@ const Hedar = () => {
     <div className="bg-[#F5F5F3] py-6">
       <Container>
         <Flex className="flex justify-between">
-          <div className="flex items-center z-50">
+          <div className="z-50 flex items-center">
             <Dropdown dropref={cetagoryref}>
               <p className="flex items-center gap-2 font-dm text-sm font-normal ">
                 <FaBars />
-               <span className="hidden lg:inline-block"> Shop by Category</span>
+                <span className="hidden lg:inline-block">
+                  {" "}
+                  Shop by Category
+                </span>
               </p>
               {cetagoryDropDownShow && (
                 <List className="absolute mt-5 w-[263px] bg-[#262626] font-dm text-sm font-normal ">
@@ -132,10 +135,10 @@ const Hedar = () => {
                           </p>
                         </div>
                         <div className=" flex gap-5 pb-5">
-                          <button className=" border border-solid   border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] hover:bg-[#262626] hover:text-white duration-200">
+                          <button className=" border border-solid   border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] duration-200 hover:bg-[#262626] hover:text-white">
                             View Cart
                           </button>
-                          <button className=" border border-solid  border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] hover:bg-[#262626] hover:text-white duration-200">
+                          <button className=" border border-solid  border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] duration-200 hover:bg-[#262626] hover:text-white">
                             Checkout
                           </button>
                         </div>
