@@ -99,10 +99,13 @@ const Hedar = () => {
                     <ListItem
                       className="border-b border-solid border-[#F0F0F0]  py-4 px-5 text-[#262626]  duration-200  hover:bg-[#262626]  hover:font-bold  hover:text-white "
                       itemname="My Account"
+                      href="/my_account"
                     />
+
                     <ListItem
                       className=" border-b  border-solid border-[#F0F0F0] py-4  px-5 text-[#262626] duration-200  hover:bg-[#262626] hover:font-bold   hover:text-white "
-                      itemname="Log Out"
+                      itemname="Login"
+                      href="/login"
                     />
                   </List>
                 )}
@@ -134,14 +137,18 @@ const Hedar = () => {
                             $44.00
                           </p>
                         </div>
-                        <div className=" flex gap-5 pb-5">
-                          <button className=" border border-solid   border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] duration-200 hover:bg-[#262626] hover:text-white">
-                            View Cart
-                          </button>
-                          <button className=" border border-solid  border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] duration-200 hover:bg-[#262626] hover:text-white">
-                            Checkout
-                          </button>
-                        </div>
+                        <List className=" flex gap-5 pb-5">
+                          <ListItem
+                            className=" border border-solid  border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] duration-200 hover:bg-[#262626] hover:text-white"
+                            itemname=" View Cart"
+                            href="/cart"
+                          />
+                          <ListItem
+                            className=" border border-solid  border-[#262626] px-10 py-4 font-dm text-sm font-bold text-[#262626] duration-200 hover:bg-[#262626] hover:text-white"
+                            itemname="Checkout"
+                            href="/my_account"
+                          />
+                        </List>
                       </div>
                     </div>
                   )}
