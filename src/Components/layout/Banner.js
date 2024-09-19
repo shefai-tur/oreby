@@ -17,6 +17,7 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+
     appendDots: (dots) => (
       <div
         style={{
@@ -48,7 +49,7 @@ const Banner = () => {
               }
         }
       >
-        0{i + 1}
+        {i + 1}
       </div>
     ),
     responsive: [
@@ -59,7 +60,7 @@ const Banner = () => {
           appendDots: (dots) => (
             <div
               style={{
-                 padding: "5px",
+                padding: "5px",
                 position: "absolute",
                 top: "50%",
                 left: "1%",
@@ -86,7 +87,7 @@ const Banner = () => {
                     }
               }
             >
-              0{i + 1}
+              {i + 1}
             </div>
           ),
         },
@@ -95,23 +96,25 @@ const Banner = () => {
   };
 
   return (
-    <Slider {...settings}>
-      <div >
-        <Link to="#">
-          <Image  className=" w-full"  imgsrc="assets/images/Banner.png" />
-        </Link>
-      </div>
-      <div>
-        <Link to="#">
-          <Image imgsrc="assets/images/Banner.png" />
-        </Link>
-      </div>
-      <div>
-        <Link to="#">
-          <Image imgsrc="assets/images/Banner.png" />
-        </Link>
-      </div>
-    </Slider>
+    <div className=" mx-auto w-[1920px] ">
+      <Slider {...settings}>
+        <div className="h-[597px] ">
+          <Link to="#">
+            <Image imgsrc="https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+          </Link>
+        </div>
+        <div className="h-[597px] ">
+          <Link to="#">
+            <Image imgsrc="assets/images/Banner.png" />
+          </Link>
+        </div>
+        <div className="h-[597px]">
+          <Link to="#">
+            <Image imgsrc="assets/images/Banner.png" />
+          </Link>
+        </div>
+      </Slider>
+    </div>
   );
 };
 
