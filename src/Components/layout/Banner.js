@@ -100,7 +100,7 @@ const Banner = () => {
       <Slider {...settings}>
         <div className="h-[597px] ">
           <Link to="#">
-            <Image imgsrc="https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+            <Image imgsrc="assets/images/Banner.png" />
           </Link>
         </div>
         <div className="h-[597px] ">
